@@ -1,0 +1,14 @@
+<view class="page">
+  <connection-status state="{{state}}" />
+  <view class="account"><text class="muted">当前用户 {{userId}}</text><button size="mini" bindtap="onCopyId">复制 ID</button><button size="mini" bindtap="onLogout">退出</button></view>
+  <view class="card start-chat"><input placeholder="输入另一位已登录用户的 ID" value="{{peer}}" bindinput="onPeerInput" /><button class="primary" size="mini" bindtap="onStartChat">聊天</button></view>
+  <view class="section"><text class="title">会话</text><button size="mini" loading="{{loading}}" bindtap="refresh">刷新</button></view>
+  <view wx:if="{{error}}" class="error">{{error}}</view>
+  <view wx:if="{{loading && !rows.length}}" class="empty">正在加载会话…</view>
+  <view wx:elif="{{!rows.length}}" class="empty">还没有会话。让另一位测试用户登录后，输入对方 ID 开始聊天。</view>
+  <view wx:for="{{rows}}" wx:key="id" class="conversation" data-peer="{{item.peer}}" data-id="{{item.id}}" bindtap="onOpenChat">
+    <view class="avatar">聊</view><view class="conversation-body"><view class="peer">{{item.peer}}</view><view class="muted ellipsis">{{item.summary}}</view></view>
+    <view class="conversation-meta"><text class="time">{{item.time}}</text><view wx:if="{{item.unread}}" class="badge">{{item.unread}}</view></view>
+  </view>
+  <button wx:if="{{hasMore}}" bindtap="onLoadMore" loading="{{loading}}" disabled="{{loading}}">加载更多</button>
+</view>

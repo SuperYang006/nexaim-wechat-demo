@@ -1,0 +1,12 @@
+<view class="chat-page">
+  <view class="chat-header"><connection-status state="{{state}}"/><view class="muted peer">{{peer}}</view><button size="mini" bindtap="refresh">重新同步</button></view>
+  <view wx:if="{{error}}" class="error chat-error">{{error}}</view>
+  <scroll-view class="message-list" scroll-y="{{true}}">
+    <view wx:if="{{!rows.length}}" class="empty">发一条消息，开始聊天。</view>
+    <message-bubble wx:for="{{rows}}" wx:key="key" message="{{item}}" bindretry="onRetry" bindpreview="onPreview" bindimageerror="onImageError" bindreload="onReloadImage"/>
+    <view wx:if="{{rows.length}}" class="read-action"><button size="mini" bindtap="onMarkRead" loading="{{reading}}" disabled="{{reading}}">我已读到这里</button></view>
+  </scroll-view>
+  <view wx:if="{{uploadStage}}" class="upload-state"><text>{{uploadStage}}</text><view wx:if="{{hasUploadTask && !busy}}"><button size="mini" bindtap="onSendImage">重试上传</button><button size="mini" bindtap="onDiscardImage">取消本次上传</button></view></view>
+  <chat-input busy="{{busy}}" bindsend="onSendText" bindimage="onSendImage"/>
+  <view class="safe-bottom"/>
+</view>

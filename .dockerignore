@@ -1,0 +1,10 @@
+**
+!package.json
+!pnpm-lock.yaml
+!server/
+!server/src/
+!server/src/**
+!scripts/
+!scripts/build-server.mjs
+!infra/
+!infra/Dockerfile

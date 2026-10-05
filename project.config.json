@@ -1,0 +1,12 @@
+{
+  "appid": "wx0000000000000000",
+  "projectname": "NexaIM-WeChat-Demo",
+  "compileType": "miniprogram",
+  "miniprogramRoot": "dist/miniprogram/",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "minified": false,
+    "enhance": true
+  }
+}

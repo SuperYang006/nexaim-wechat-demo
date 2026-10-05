@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "会话",
+  "usingComponents": {
+    "connection-status": "/components/connection-status/index"
+  }
+}

@@ -1,0 +1,1 @@
+.composer{display:flex;gap:14rpx;align-items:center;padding:20rpx 24rpx;background:var(--surface);border-top:1rpx solid var(--border)}.composer input{flex:1;min-width:0;background:var(--background);border-radius:12rpx;padding:18rpx;font-size:28rpx}.composer button{margin:0;padding:0 20rpx}.composer .send{background:var(--accent);color:var(--surface)}

@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "types": [
+      "node",
+      "miniprogram-api-typings"
+    ],
+    "paths": {
+      "@nexaim/protocol": [
+        "./sdk/protocol/src/index.ts"
+      ]
+    }
+  },
+  "include": [
+    "miniprogram/**/*.ts",
+    "server/**/*.ts",
+    "tests/**/*.ts"
+  ]
+}

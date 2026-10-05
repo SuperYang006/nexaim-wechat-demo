@@ -1,0 +1,26 @@
+{
+  "commit": "5ba11c42bf0abf5fb720e97e85ed7d3e5427cb70",
+  "files": {
+    "sdk/protocol/src/client-conversations.ts": "3415bdcf9f0f4a3b6694fc1100c76cb66d2a27cef39c3d9eabf5b1df44202666",
+    "sdk/protocol/src/console.ts": "57a355006aa8b82ec610d49ba35e077899c256de0300fb5fda9f9652c6f0771d",
+    "sdk/protocol/src/errors.ts": "34f37a895a278e4161907aabf7a70b09eaea8a44e7d5e289d91823dea969b9b6",
+    "sdk/protocol/src/http.ts": "ba7edb5caa84917b58924917b92f2cc98dcb1383e3e5656695db8e83987bc16d",
+    "sdk/protocol/src/ids.ts": "01746568edfe4524217d6a61c3e4214cf35eac4750e335d81c00be72f26032cd",
+    "sdk/protocol/src/index.ts": "7640a26f2c2dff9f29ce6404a6ad06435c59766cd13fb46f9056355ef827e3c9",
+    "sdk/protocol/src/notification.ts": "a585822159a24852fed8f0c0a1e8bce8ef18ea5897471652514aef78a2cb5124",
+    "sdk/protocol/src/pagination.ts": "2d1e09d519241841af1ebf7a9e340fb3dc7f7958a63f8427ac23a6c6196a2904",
+    "sdk/protocol/src/server.ts": "f92061ff618a044923f64e7cded2ab08282d5909a02bd15d27129e05f1ef7557",
+    "sdk/protocol/src/stats.ts": "c8ea5c04872a8a1942a98f15c4150aed570a63b42051da82031a2021432c2fc5",
+    "sdk/protocol/src/webhook.ts": "2bcd14e711469684f7877a5231b33c1d0681696d7eafb2fb4580565c0a3e3102",
+    "sdk/protocol/src/ws.ts": "1fb1d8f8bfb720eba7103608de8a11a6025e974f97596be02ebc01e0fd890e7c",
+    "sdk/reference-client/src/NexaIMClient.ts": "8ba23fadb2c3729418e612720f7c4f1cdf5d181140617600646f4e978d834711",
+    "sdk/reference-client/src/dedupe.ts": "5a3fb504c7f23d14cd495d49fdaa655e92dabaa0197f7c048c485946ee8098ce",
+    "sdk/reference-client/src/errors.ts": "49d2f280b1bf1abc57b6836bc00e6fbb87537575a212e5f6bb801e4d69d366d6",
+    "sdk/reference-client/src/index.ts": "40dd2ca5ea30ff802cb585856dc20a672dacc181bdd9238b7d71017249ee6931",
+    "sdk/reference-client/src/reconnect.ts": "1ed48f8a5debedf192b5fefa24d5c3c4ba27f3546794b0b30f309f4a9106c015",
+    "sdk/reference-client/src/request-id.ts": "ac67d060226357a189b77858421b6ddf702e8f97727b731c415f823c71ebe614",
+    "sdk/reference-client/src/types.ts": "20e625fec04b5d9142abd6ca21c798ceaf92aa43e449114e25c5c0bd461ceef3",
+    "sdk/reference-client/src/wechat-runtime.ts": "196dc870ef0679fc5aa155383480a1b95c476862d09048af14323634b5a5664d",
+    "sdk/reference-client/src/ws-runtime.ts": "fccf3ea7b3b9925e293e5955cb25ac542b86044c5bf7dd9412e425a342975b9b"
+  }
+}

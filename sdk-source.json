@@ -1,0 +1,6 @@
+{
+  "formatVersion": 1,
+  "commit": "5ba11c42bf0abf5fb720e97e85ed7d3e5427cb70",
+  "entry": "sdk/reference-client/src/index.ts",
+  "protocolEntry": "sdk/protocol/src/index.ts"
+}

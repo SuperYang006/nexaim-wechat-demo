@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "聊天",
+  "usingComponents": {
+    "connection-status": "/components/connection-status/index",
+    "chat-input": "/components/chat-input/index",
+    "message-bubble": "/components/message-bubble/index"
+  }
+}

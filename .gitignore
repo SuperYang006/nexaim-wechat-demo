@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+project.private.config.json
+miniprogram/vendor/*.js
+miniprogram/vendor/*.d.ts
+.DS_Store
+*.log

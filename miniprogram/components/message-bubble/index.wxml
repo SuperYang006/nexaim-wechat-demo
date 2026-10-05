@@ -1,0 +1,5 @@
+<view class="message {{message.mine ? 'mine' : ''}}"><view class="bubble">
+  <text wx:if="{{message.messageType === 'text'}}" selectable>{{message.text}}</text>
+  <block wx:elif="{{message.messageType === 'image'}}"><image wx:if="{{message.imageUrl && !message.imageFailed}}" src="{{message.imageUrl}}" mode="widthFix" bindtap="onPreview" binderror="onImageError"/><view wx:elif="{{message.imageFailed}}" bindtap="onReload">图片加载失败 · 点击重试</view><view wx:else>图片加载中…</view></block>
+  <text wx:else>[文件消息]</text>
+</view><view wx:if="{{message.mine}}" class="status"><text>{{message.statusText}}</text><text wx:if="{{message.status === 'unconfirmed'}}" class="retry" bindtap="onRetry"> · 重试</text></view></view>

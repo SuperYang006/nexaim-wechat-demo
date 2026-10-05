@@ -1,0 +1,1 @@
+<view class="composer"><button size="mini" disabled="{{busy}}" bindtap="onImage">图片</button><input value="{{text}}" bindinput="onInput" bindconfirm="onSend" confirm-type="send" maxlength="8192" placeholder="输入消息" /><button class="send" size="mini" bindtap="onSend" disabled="{{busy || !text}}" loading="{{busy}}">发送</button></view>

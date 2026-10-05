@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/login/index",
+    "pages/conversations/index",
+    "pages/chat/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "NexaIM Demo",
+    "navigationBarBackgroundColor": "#f4f6f8",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f4f6f8"
+  },
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

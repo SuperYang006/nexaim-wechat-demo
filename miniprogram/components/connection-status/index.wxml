@@ -1,0 +1,1 @@
+<view class="connection {{state === 'connected' ? 'online' : ''}}"><view class="dot"/><text>{{state === 'connected' ? '已连接' : state === 'connecting' ? '正在连接…' : state === 'reconnecting' ? '正在重连…' : '未连接'}}</text></view>

@@ -1,0 +1,11 @@
+<view class="page login-page">
+  <view class="brand">NexaIM · 微信 Demo</view>
+  <view class="card">
+    <view class="title">即时聊天</view>
+    <view class="muted intro">会话列表 · 实时消息 · 图片分享</view>
+    <view wx:if="{{!configured}}" class="notice">工程已就绪，服务连接配置待填写。</view>
+    <button class="primary" bindtap="onLogin" loading="{{busy}}" disabled="{{busy || !configured}}">微信登录</button>
+    <view wx:if="{{error}}" class="error">{{error}}</view>
+    <view class="muted footnote">登录后使用当前微信账号进行聊天测试。</view>
+  </view>
+</view>

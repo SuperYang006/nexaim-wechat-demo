@@ -1,0 +1,1 @@
+.connection{display:flex;align-items:center;gap:12rpx;font-size:24rpx;color:var(--muted)}.dot{width:12rpx;height:12rpx;border-radius:50%;background:var(--muted)}.online{color:var(--accent)}.online .dot{background:var(--accent)}
